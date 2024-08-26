@@ -1,0 +1,242 @@
+@charset "UTF-8";
+body{
+    font-family: 'Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
+    font-weight:bold;
+    background-color: #ddd;
+    font:bold;
+    border-bottom:100px solid #79a1b1;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 45px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height:40px;
+    color: #fff;
+    background-color: #79a1b1;
+    z-index:100 ;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+header ul li{
+    margin-top:10px;
+    width :25%;
+    text-align: center;
+    border-right:1px solid #fff;
+}
+header ul li:first-child{
+    border-left: 1px solid #fff;
+}
+header ul li a{
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.chose li a:hover{
+    transform: scale(1.4,1.4);
+}
+
+.logo{
+    width:100%;
+}
+.logo ul{
+    display: flex;
+    justify-content: center;
+} 
+.logo img{
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    margin-top: 40px;
+    width:100% ;
+    height: auto;  
+} 
+.bar{
+    height: 40px;
+    font-size: large;
+    background-color: #79a1b1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.syoukai{
+    font-size: x-large;
+    color: #404040;
+}
+.container{
+    margin-top: 60px;
+    width:100%;
+    position: relative;
+}
+#snow_block{
+    width: 98%;
+    margin: 80px 1% 0;
+    padding:30px 20px 20px;
+    background-color: #a2c7d3;  
+    border-radius: 20px;
+}
+.snow_picture{
+    display: flex;
+}
+.container img{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0% 1%;
+}
+.snow1{
+    margin-top: 120px;
+}
+.snow2{
+    margin-bottom: 40px;
+}
+.container li{
+    font-size: large;
+    color: #fff;
+    margin: 0px;
+    position: absolute;
+
+}
+.container .title_s{
+    width: 250px;
+    font-size: xx-large;
+    top:-3%;
+    left:10%;
+    background-color: #79a1b1;
+    text-align: center;
+    padding: 0 2%;
+    border-radius: 5px;
+
+}
+.container .setsumei_s{
+    font-size: x-large;
+    width: 51%;
+    top: 5%;
+    left: 1%;
+    border-radius: 5px;
+}
+#food_block{
+    width: 98%;
+    margin: 80px 1% 0;
+    padding: 20px;
+    background-color: #a2c7d3;  
+    border-radius: 20px;
+}
+.food_picture{
+    display: flex;
+    width: 100%;
+}
+.pic_mid{
+    display: flex;
+    width: 40%;
+    margin-bottom: 15px;
+    padding:25% 0 10px 0;
+}
+.pic_mid img{
+    padding: 50% 5px 10% 5px;
+    width: 100%;
+}
+.pic_large{
+    width: 40%;
+    
+}
+.pic_large img{
+    width: 100%;
+    padding: 2% 2px;
+}
+.pic_small{
+    width: 21%;
+    padding: 5px ;
+}
+.pic_small img{
+    width:100%;
+    padding:5px 5px;
+    margin-top: 15px;
+
+}
+.overlap li{
+    position: absolute;
+}
+.container .title_f{
+    width: 340px;
+    font-size: xx-large;
+    top:-3%;
+    left:5%;
+    background-color: #79a1b1;
+    text-align: center;
+    padding: 0 2%;
+    border-radius: 5px;
+
+}
+.container .setsumei_f{
+    font-size: x-large;
+    width: 38%;
+    top: 3%;
+    left: 1%;
+    border-radius: 5px;
+}
+.container .setsumei_f2{
+    font-size: x-large;
+    width: 38%;
+    top: 20%;
+    left: 1%;
+    border-radius: 5px;
+}
+#club_block{
+    width: 98%;
+    margin: 80px 1% 0;
+    padding:30px 20px 20px;
+    background-color: #a2c7d3;  
+    border-radius: 20px;
+}
+.club_picture{
+    display: flex;
+}
+.container img{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0% 1%;
+    -ms-filter: blur(0.5px);
+    filter: blur(0.5px);
+}
+.club1{
+    margin-top: 100px;
+}
+.club2{
+    margin-bottom: 40px;
+}
+.container .title_c{
+    width: 250px;
+    font-size: xx-large;
+    top:-4%;
+    left:10%;
+    background-color: #79a1b1;
+    text-align: center;
+    padding: 0 2%;
+    border-radius: 5px;
+
+}
+.container .setsumei_c{
+    font-size: x-large;
+    width: 50%;
+    top: 6%;
+    left: 1%;
+    border-radius: 5px;
+
+}
+#skill .bar{
+    margin-top: 100px;
+}
+#end{
+    display: inline-block;
+    margin-bottom: 20px;
+}
